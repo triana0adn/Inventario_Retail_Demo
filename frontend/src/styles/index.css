@@ -1,0 +1,128 @@
+/* Contenedor general */
+.appContainer {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f9fafb;
+  border-radius: 0.75rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+.title {
+  text-align: center;
+  color: #6b21a8;
+  margin-bottom: 2rem;
+}
+
+/* Secciones */
+.card {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+/* Buscador */
+.searchBox {
+  display: flex;
+  gap: 1rem;
+}
+
+.searchBox input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.form input,
+.select {
+  flex: 1 1 180px;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  background: #6b21a8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #5b21b6;
+}
+
+/* Tabla */
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background: #f3f4f6;
+  text-align: left;
+  padding: 0.75rem;
+}
+
+.table td {
+  border-top: 1px solid #e5e7eb;
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+.emptyRow {
+  text-align: center;
+  color: #6b7280;
+  padding: 1rem;
+}
+
+/* Stock editable */
+.stockInput {
+  width: 70px;
+  padding: 0.4rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/* Botón eliminar */
+.btnDelete {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btnDelete:hover {
+  background: #b91c1c;
+}
+
+
